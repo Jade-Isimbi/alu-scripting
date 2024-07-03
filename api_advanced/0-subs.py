@@ -1,5 +1,9 @@
 #!/usr/bin/python3
 
+"""
+A simple script to fetch and print the number of subscribers for a given subreddit.
+"""
+
 import requests
 
 """ returns the number of subscribers """
@@ -14,3 +18,4 @@ def sub_counter(sub_reddit):
     print(subscriber_count)
 
 sub_counter('liminalspace')
+
